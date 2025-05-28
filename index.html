@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>4BET VIRTUAL | Sinais Premium</title>
+    <meta name="description" content="Sinais de futebol virtual com 85% de acerto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Background -->
+    <div class="background-blur"></div>
+    <canvas id="particles"></canvas>
+
+    <!-- Container Principal -->
+    <div class="main-container">
+        
+        <!-- Header -->
+        <header>
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo">
+                    <h1>4BET VIRTUAL</h1>
+                </div>
+                <nav>
+                    <a href="#home">Home</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#resultados">Resultados</a>
+                    <a href="#planos">Planos</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Seção Hero -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>TRANSFORME SUA APOSTA EM LUCRO TODOS OS DIAS.</h2>
+                <p class="subtitle">SINAIS COM <span>85% A 95% de acerto</span> SEGUINDO NOSSAS ESTRATÉGIAS</p>
+                <div class="cta-buttons">
+                    <a href="#vip" class="btn vip pulse">
+                        <i class="fas fa-crown"></i> ENTRAR NO VIP
+                    </a>
+                    <a href="#free" class="btn free">GRUPO FREE</a>
+                </div>
+                <img src="images/futebol.gif" alt="Demonstração" class="hero-gif">
+            </div>
+        </section>
+
+        <!-- Seção Resultados -->
+        <section id="resultados" class="results">
+            <div class="section-content">
+                <h2>RESULTADOS RECENTES</h2>
+                
+                <!-- Controles de Tamanho -->
+                <div class="size-controls">
+                    <button class="size-btn" onclick="changeSize(-0.1)">
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    <span class="size-value">100%</span>
+                    <button class="size-btn" onclick="changeSize(0.1)">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+
+                <!-- Carrossel Automático -->
+                <div class="carrossel-container">
+                    <div class="carrossel-track">
+                        <!-- Imagens serão adicionadas via JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Planos -->
+        <section id="planos" class="pricing">
+            <div class="section-content">
+                <h2>NOSSOS PLANOS</h2>
+                <div class="pricing-grid">
+                    <div class="plan-card free">
+                        <h3>GRUPO FREE</h3>
+                        <img src="images/free.png" alt="Free">
+                        <ul>
+                            <li>✔ 3-5 sinais diários</li>
+                            <li>✔ Suporte básico</li>
+                        </ul>
+                        <a href="#" class="btn free">ACESSAR</a>
+                    </div>
+                    <div class="plan-card vip">
+                        <h3>GRUPO VIP</h3>
+                        <img src="images/vip.png" alt="VIP">
+                        <ul>
+                            <li>✔ 15-20 sinais diários</li>
+                            <li>✔ Suporte 24/7</li>
+                            <li>✔ Bônus exclusivos</li>
+                        </ul>
+                        <a href="#" class="btn vip">ASSINAR</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2025 4BET VIRTUAL. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
